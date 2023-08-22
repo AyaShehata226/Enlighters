@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container {
+    padding: 50px 100px 100px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+h1 {
+    width: 300px;
+    font-size: 36px;
+    color: #490958;
+    border-bottom: #490958 3px solid;
+    padding-top: 80px;
+    margin-left: 60px;
+}
+
+#container div {
+    width: 25%;
+    padding: 16px;
+    margin-top: 24px;
+}
+
+#container div img {
+    width: 100%;
+    height: 60%;
+}
+
+#container .course-name {
+    color: rgb(100, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#container .no-courses {
+    font-size: 24px;
+    font-weight: bold;
+}
+.instructor {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+.rating {
+    margin-top: 8px;
+    font-weight: bold;
+}
